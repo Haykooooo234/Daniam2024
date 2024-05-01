@@ -1,0 +1,70 @@
+.Ptext{
+    margin-top: 160px;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.cards img{
+    width: 400px;
+}
+
+.cards{
+    position: relative;
+    padding: 1.7em;
+    margin: 50px auto;
+    background-color: #f2fffd13;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.serr{
+    width: 450px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Pinfo{
+    color: rgb(255, 255, 255);  
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.Partners_info{
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.775);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media all and (max-width: 1000px) {
+    .Ptext{
+        margin-top: 165px;
+        font-size: 25px;
+    }
+
+    .cards{
+        margin: 20px auto;
+    }
+    .cards img{
+        width: 300px;
+    }
+    
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .serr{
+        width: 300px;
+        margin-top: 20px;
+    }
+}

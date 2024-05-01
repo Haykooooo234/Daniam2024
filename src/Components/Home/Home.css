@@ -1,0 +1,94 @@
+*{
+    scrollbar-width: thin;
+    scrollbar-color:#3586ff rgb(0, 0, 0);
+}
+
+#Home{
+    margin-top: 160px;
+}
+
+#Welcome{
+    color: white;
+}
+
+.Welcome1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.Welcome2{
+    text-align: center;
+    margin-top: 35px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#about{
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+#Hometext{
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    width: 90%;
+}
+
+.textW{
+    margin-top: 35px;
+}
+
+.text2{
+    margin-top: 35px;
+}
+
+.text3{
+    margin-top: 35px;
+}
+
+.text4{
+    margin-top: 35px;
+}
+
+@media all and (max-width: 1000px) {
+    #Home{
+        margin-top: 165px;
+    } 
+    .Welcome1{
+        text-align: center;
+        font-size: 28px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .Welcome2{
+        font-size: 25px;
+    }
+
+    #about{
+        color: white;
+        font-size: 23px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-top: 50px;
+        text-align: center;
+        margin-right: 10px;
+    }
+    
+    #Hometext{
+        color: white;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 10px;
+        width: 90%;
+
+    }
+}

@@ -1,0 +1,225 @@
+.Protext{
+    margin-top: 160px;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#UNIFIED{
+    background-color: #00010e;
+    border-radius: 20px;
+    position: relative;
+    padding: 1.7em;
+    margin: 50px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#UNIFIED img{
+    width: 300px;
+}
+
+.UNIFIED{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.UNIFIED h1{
+    color: rgb(255, 255, 255);  
+    font-size: 40px;
+    font-weight: bold;
+}
+.UNIFIED p{
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.775);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.Allcard img{
+    width: 150px;
+    border-radius: 200px;
+}
+
+.Allcard{
+    position: relative;
+    padding: 1em;
+    margin: 50px auto;
+    background-color: #f2fffd13;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.Allcar{
+    position: relative;
+    padding: 1em;
+    margin: 50px auto;
+    background-color: #f2fffd13;
+    border-radius: 15px;
+    text-align: center;
+}
+.Allcar img{
+    width: 150px;
+    border-radius: 200px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.pr{
+    width: 700px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Pinfo{
+    color: rgb(255, 255, 255);  
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.Partners_info{
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.775);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#UNIFIED1{
+    background-color: #10081F;
+    border-radius: 20px;
+    position: relative;
+    padding: 1.7em;
+    margin: 50px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#UNIFIED1 img{
+    width: 400px;
+}
+
+.UNIFIED1{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.UNIFIED1 p{
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.775);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.UNIFIED1 h1{
+    color: rgb(255, 255, 255);  
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#MOB{
+    display: none;
+}
+
+#MOB1{
+    display: none;
+}
+
+@media all and (max-width: 1000px) {
+    .Protext{
+        margin-top: 165px;
+        font-size: 25px;
+    }
+    #UNIFIED{
+        display: none;
+    }
+
+    #MOB{
+        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+
+    #UNIFIED1{
+        display: none;
+    }
+
+    #MOB1{
+        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+
+    .AllcardsP img{
+        width: 200px;
+        border-radius: 200px;
+    }
+
+    .AllcardsP{
+        position: relative;
+        padding: 1em;
+        margin: 20px auto;
+        background-color: #00010e;
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    .pr{
+        margin-top: 10px;
+    }
+
+    .PinfoP{
+        line-height: 15px;
+        color: rgb(255, 255, 255);  
+        font-size: 25px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    
+    .Partners_infoP{
+        color: rgba(255, 255, 255, 0.775);
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .Allcard img{
+        width: 150px;
+        border-radius: 200px;
+    }
+    
+
+    
+    .Allcar{
+        position: relative;
+        padding: 0.8em;
+        margin: 50px auto;
+        background-color: #f2fffd13;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .Allcar img{
+        width: 150px;
+        border-radius: 200px;
+    }
+    
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .pr{
+        width: 300px;
+        text-align: center;
+    }
+
+}
